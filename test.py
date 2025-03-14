@@ -10,15 +10,15 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # Navigate to the webpage
-driver.get("https://academy.test.powerlearnprojectafrica.org/login")
+driver.get("")
 
 # Locate the username field by its ID and type the username
 username_field = driver.find_element("id", "email")
-username_field.send_keys("gerald@powerlearnprojectafrica.org")  # Replace 'YourUsername' with actual input
+username_field.send_keys("")  # Replace 'YourUsername' with actual input
 
 # Locate the password field by its ID and type the password
 password_field = driver.find_element("id", "password")
-password_field.send_keys("@Macherechedze1")  # Replace 'YourPassword' with actual input
+password_field.send_keys("")  # Replace 'YourPassword' with actual input
 
 # Optionally, submit the form (if a submit button exists)
 submit_button = driver.find_element(By.XPATH, "//button[@type='submit' and @aria-label='Submit']")
