@@ -1,0 +1,4 @@
+pip install selenium
+pip install webdriver-manager
+pip show webdriver-manager
+pip install --upgrade selenium webdriver-manager
